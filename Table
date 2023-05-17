@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+         table {
+         font-family: Times new roman;
+         border-collapse: collapse;
+         width: 100%;
+         }
+         input{
+
+            border:1px dotted red;
+         }
+      
+         td, th {
+         border-style: dashed;
+         text-align: left;
+         padding: 8px;
+         }
+         tr:nth-child(even) {
+         background-color: #dddddd;
+         }
+         h2:hover{
+         background: red;
+         }
+       
+         @media(max-width: 600px){
+         body{
+         background: yellow;
+         }
+         .font{
+         font-family: Times New Roman;
+         font-size:20px;
+         color:blue;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <canvas id="myCanvas" width="200" height="100" style="border: 2px solid #000;"></canvas><br>
+
+      <EM> Emphasis </EM>
+      <i> Emphasis </i>
+      <cite> Emphasis</cite>
+      <b>Hai</b>
+      <strong>Hai</strong>
+      <FONT COLOR="blue">this text has color</FONT>
+      <PRE> Preformatted </PRE>
+      <TT>  Preformatted</TT>
+      <h1 class="font">WELCOME TO LOGIN360 <BR>DIGITAL MARKETING&amp;IT SOLUTIONS</h1>
+      <BIG> places text in a big font</BIG>
+      <SMALL> places text in a small font</SMALL>
+      <p><STRIKE> INR 500</STRIKE><span> INR 300</span></p>
+      <p>&copy; LOGIN360 .All rights reserved!</p>
+      <p><FONT SIZE="+4">Two sizes bigger</FONT></p>
+      <p><SMALL> DEL is used for STRIKE at the latest browsers. DEL is used for STRIKE at the latest browsers</SMALL></p>
+      <table border="2" cellpadding="3">
+         <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+         </tr>
+         <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+         </tr>
+         <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+         </tr>
+         <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+         </tr>
+         <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+         </tr>
+         <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+         </tr>
+         <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+         </tr>
+      </table>
+      <TABLE BORDER width="750">
+         <TR>
+            <TD  align=“center”>Page Banner</TD>
+         </TR>
+         <TR>
+            <TD colspan="2" width=“25%”>Nav Links</TD>
+            <TD  rowspan="2">Feature Article</TD>
+            <TD  width=“25%”>Linked Ads</TD>
+         </TR>
+         <TR>
+            <TD width="25%">News Column 1 </TD>
+            <TD  width="25%">News Column 2 </TD>
+         </TR>
+      </TABLE><br><br>
+      <form action="#" method="POST">
+         <label>Name:</label>
+         <input type="text" value="Name" required><br><br>
+         <label>Last Name:</label>
+         <input type="text" placeholder="Enter your last name" required><br><br>
+         <label>DOB:</label>
+         <input type="date" placeholder="Enter your DOB"><br><br>
+         <label>Phone:</label>
+         <input type="number" placeholder="Enter your No"><br><br>
+         <label>Choose the color:</label>
+         <input type="Color" placeholder="Enter your color"><br><br>
+         <label>Upload the resume:</label>
+         <input type="file" placeholder="Upload the resume"><br><br>
+         <label>Select pressure</label><br/>
+         <input type="range"
+            min="0" max="100" step="10" value="30"> <br />
+      </form>
+      <form action="#">
+         <label>Name:</label>
+         <input type="text" placeholder="Name">
+         <input type="radio"  value=Male checked>Fresher<br>
+         <input type="radio"  value="Female"> Experience<br><br >
+         <input type="checkbox" name="technology1" checked> HTML<br>
+         <input type="checkbox" name="technology2" value="CSS"> CSS<br>
+         <input type="checkbox" name="technology3" value="Javascript"> Javascript<br>
+         <input type="checkbox" name="technology4" value="JQuery"> JQuery <br><br>
+         <!-- This will only accept excel files -->
+         Select an Excel file &nbsp; <input type="file" name="file" accept=".xls,.xlsx">
+         <br><br>
+         <!-- This one will accept png and jpg only -->
+         Select an image file &nbsp; <input type="file" name="file" accept=".png,.jpg,.jpeg">  <br><br>
+         <input type="time" name="time"><br><br>
+         <input type="month" name="week"><br><br>
+         <input type="search" name="search"> <br><br>
+         <select  name="carlist">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+         </select>
+         <textarea id="review" name="review" rows="4" cols="50">
+
+</textarea>
+         <button>Send</button>
+         <input type="button" value="send">
+         <FONT SIZE="+2" color="red">
+            <p>Hello</p>
+         </FONT>
+      </form>
+      <iframe width="550" height="315" src="https://www.youtube.com/embed/RzVvThhjAKw" title="YouTube video player"></iframe>
+      <video width="550" height="315" controls autoplay loop muted>
+         <source src="C:\Users\hp\Desktop\Jai_Bhim_700Mb.mp4">
+      </video>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.966634059009!2d80.21652267397891!3d12.973985914828198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d3154bf18fb%3A0x706bf6b0e2157ca9!2sLogin360!5e0!3m2!1sen!2sin!4v1682835876462!5m2!1sen!2sin" width="600" height="450"></iframe>
+      <iframe  width="550" height="315" src="https://www.login360.in"></iframe><br>
+      <audio src="music.mp3" controls></audio>
+      <frameset cols = "50%,50%">
+         <noframe>
+            <frame  src = "https://makeoverbythanu.in/assets/images/portfolio/image1.jpg" />
+            <frame  src = "https://makeoverbythanu.in/assets/images/portfolio/image1.jpg" />
+         </noframe>
+      </frameset>
+      <table>
+         <tr>
+            <th>Roll No</th>
+            <th>Course Name</th>
+            <th>classification</th>
+         </tr>
+         <tr>
+            <td >1</td>
+            <td>html</td>
+            <td>frotend</td>
+         </tr>
+      </table>
+   </body>
+</html>
